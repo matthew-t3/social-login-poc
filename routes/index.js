@@ -88,8 +88,8 @@ router.get('/auth/facebook/callback', async (req, res) => {
 //   await got.post('https://api.twitter.com/oauth/request_token', {
 //     form: {
 //       oauth_callback: 'http://localhost:3010/auth/twitter/callback',
-//       oauth_verifier: '3256564394-lgqVd79BrPBJs19CbajSVt1PyiR8vzDZUrySWV6',
-//       oauth_token: 'I9opQdaQcCXEYZdjEutsRLMJxxZmP2Qu8lI9XIfdaFraP'
+//       oauth_verifier: '',
+//       oauth_token: ''
 //     }
 //   })
 // } catch (err) {
@@ -107,7 +107,7 @@ router.get('/auth/facebook/callback', async (req, res) => {
 //   try {
 //     const accessToken = await got.post('https://api.twitter.com/2/oauth2/token', {
 //       headers: {
-//         'Authorization': `Basic YmxaTFNrWnpaRmhGUlVSMFozTjNjM0JSYzFFNk1UcGphUTpKOTdkZUc1ZHh5Um9wek41dTdXaDlXV0JWcG1FcVpyQjE0dHlsMWdJT0VxcGZvTWZDeg==`
+//         'Authorization': `Basic `
 //       },
 //       form: {
 //         code: req.query.code,
